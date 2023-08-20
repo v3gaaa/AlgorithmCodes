@@ -30,7 +30,7 @@ int main() {
     int n;
     int suma = 0;
 
-    cout << "Ingrese un entero positivo n: ";
+    cout << "Ingrese un numero n: ";
     cin >> n;
     
     
@@ -38,6 +38,7 @@ int main() {
     int resultIterativo = sumaIterativa(n,suma);
     int resultRecursivo = sumaRecursiva(n,suma);
     int resultDirecto = sumaDirecta(n);
+    
     
     // Mostrar los resultados
     cout << "Sumatoria iterativa: " << resultIterativo << endl;
