@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+
+// Función para calcular la sumatoria de 1 hasta n de forma iterativa
+int sumaIterativa(int n) {
+    int suma = 0;
+    for (int i = 1; i <= n; i++) {
+        suma += i;
+    }
+    return suma;
+}
+
+// Función para calcular la sumatoria de 1 hasta n de forma recursiva
+int sumaRecursiva(int n, suma) {
+    
+}
+
+// Función para calcular la sumatoria de 1 hasta n de forma directa
+int sumaDirecta(int n) {
+    return (n * (n + 1)) / 2;
+}
+
+int main() {
+    int n;
+    
+    // Solicitar al usuario el valor de n
+    cout << "Ingrese un entero positivo n: ";
+    cin >> n;
+    
+    // Validar que n sea un entero positivo
+    if (n <= 0) {
+        cout << "El valor de n debe ser un entero positivo." << endl;
+    } else {
+        // Calcular la sumatoria de 1 hasta n utilizando las tres funciones
+        int resultadoIterativo = sumaIterativa(n);
+        int resultadoRecursivo = sumaRecursiva(n);
+        int resultadoDirecto = sumaDirecta(n);
+        
+        // Mostrar los resultados
+        cout << "Sumatoria de 1 hasta n (iterativa): " << resultadoIterativo << endl;
+        cout << "Sumatoria de 1 hasta n (recursiva): " << resultadoRecursivo << endl;
+        cout << "Sumatoria de 1 hasta n (directa): " << resultadoDirecto << endl;
+    }
+    
+    return 0;
+}
