@@ -1,3 +1,8 @@
+//Programa que calcula la suma de 1 a n con diferentes metodos
+//Autor: Sebastian Denhi Vega Saint Martin
+//Matricula:A01637397
+
+
 #include <iostream>
 using namespace std;
 
@@ -34,7 +39,7 @@ int main() {
     
     
     // Calcular la sumatoria de 1 hasta n utilizando las tres funciones
-    int resultIterativo = sumaIterativa(n,suma);
+    int resultIterativo = sumaIterativa(n,suma);  
     int resultRecursivo = sumaRecursiva(n,suma);
     int resultDirecto = sumaDirecta(n);
     
