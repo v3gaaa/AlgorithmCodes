@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // Función para calcular la sumatoria de 1 hasta n de forma iterativa
